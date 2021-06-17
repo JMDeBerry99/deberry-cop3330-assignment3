@@ -1,0 +1,22 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 3 Solution
+ *  Copyright 2021 Jacob DeBerry
+ */
+@startuml
+'https://plantuml.com/class-diagram
+
+class solution42
+
+solution41 <|-- DataFormatter
+
+
+class DataFormatter {
+ArrayList<String[]> data
+String chart
+
+process()
+createChart()
+printChart()
+}
+
+@enduml
