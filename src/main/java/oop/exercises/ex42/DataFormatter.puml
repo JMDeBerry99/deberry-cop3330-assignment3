@@ -7,7 +7,7 @@
 
 class solution42
 
-solution41 <|-- DataFormatter
+solution42 <|-- DataFormatter
 
 
 class DataFormatter {
